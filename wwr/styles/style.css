@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&family=Work+Sans:wght@400&display=swap');
+
+:root {    
+--heading-font: "Sedgwick Ave Display";
+--paragraph-font: Work Sans, Helvetica, sans-serif;
+}
+
 #content {
     margin: 0 auto;
 }
@@ -5,6 +12,9 @@
 nav a {
     text-align: center;
     color: #070707;
+    padding: 35px;
+    text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -25,6 +35,8 @@ main section {
 
 body {
     background-color: #faebd7;
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -40,6 +52,10 @@ nav a:hover {
     background-color: #fff0f5;
     color: #070707;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -53,15 +69,22 @@ nav a:hover {
 
 .msg {
     background-color: #999281;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #999281;
     color: #070707;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
     color: #070707;
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin: 10px;
 }
 
 h4 {
@@ -74,6 +97,8 @@ h4 {
 
 .msg p {
     color: #070707;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer a {
@@ -87,6 +112,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
@@ -97,10 +123,6 @@ footer a:hover {
     width: 100%;
 }
 
-nav a {
-    text-decoration: none;
-}
-
 footer p {
     font-size: 1.2em;
 }
@@ -108,3 +130,33 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+    border: 10px #000000;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.rivers-card, .camping-cad, .rapids-card {
+    margin: 200px 0;
+}
+
+.mountains{
+    margin: 50px 0;
+}
+

@@ -1,0 +1,24 @@
+#photo-main {
+    margin: 0;
+    padding: 0;
+}
+
+.photo-bit {
+    background-color: gray;
+
+}
+
+.desk {
+    width: 15%;
+    padding: 50px;
+}
+
+.graphic {
+    width: 15%;
+    padding: 50px;
+}
+
+.person {
+    width: 15%;
+    padding: 50px;
+}
